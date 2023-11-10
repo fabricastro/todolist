@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <link rel="stylesheet" href="styles.css" />
+  <body>
+    <div class="container">
+      <div class="perfil">
+        <div id="fecha">1 de dic</div>
+        <h1>Hola, Fabri</h1>
+        <span>Vamos a cumplir tus tareas</span>
+      </div>
+
+      <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="agregar una tarea" />
+        <i class="fa fa-plus-circle" aria-hidden="true"></i>
+      </div>
+
+      <div class="seccion-tarea">
+        <h3>Estas son tus tareas pendientes</h3>
+        <ul id="lista">
+          <li>
+            <i class="far fa-circle co" data="realizado" id="0"></i>
+            <p class="text">tarea 1</p>
+            <i class="fas fa-trash de" data="eliminado" id="0"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
