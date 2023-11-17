@@ -9,5 +9,13 @@ function agregarTarea(tarea) {
     <p class="text">${tarea}</p>
     <i class="fas fa-trash de" data="eliminado" id="0"></i>`;
 
-    lista.
+    lista.insertAdjacentElement("beforeend",elemento)
 }
+
+botonEnter.addEventListener('click', ()=>{
+  const tarea = input.value
+  if(tarea) {
+    agregarTarea(tarea)
+  }
+  
+})
